@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sudu after before element</title>
+    <style>
+        h1::before {
+            content: "Hello ";
+            color: green;
+            font-size: 40px;
+            background-color: blue;
+        }
+        
+        .mk::after {
+            content: "is design";
+            color: green;
+        }
+        /* j web site teke agula namano hoide css counters */
+        /* https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Lists_and_Counters/Using_CSS_counters */
+        
+        body {
+            counter-reset: section;
+            /* Set a counter named 'section', and its initial value is 0. */
+        }
+        
+        p::before {
+            counter-increment: section;
+            /* Increment the value of section counter by 1 */
+            content: "my name title " counter(section) ": ";
+            /* Display the word 'Section ', the value of 
+                                                   section counter, and a colon before the content
+                                                   of each h3 */
+        }
+        
+        p::after {
+            content: "imogi";
+        }
+        
+        .special-
+    </style>
+</head>
+
+<body>
+    <h1>pseudo class</h1>
+    <h1 class="mk">normal class</h1>
+    <h1 class="parvez">spacial class</h1>
+    <label for="lavel"> enter your email</label>
+    <input type="email" class="text"><br><br>
+    <label for="lavel"> enter your password</label>
+    <input type="password" class="password">
+    <a href="#" target="blank">pnk</a>
+    <ul>
+        <p>parvez1-1</p>
+        <p>parvez1-2</p>
+        <p>parvez1-3</p>
+        <p>parvez1-4</p>
+        <p>parvez1-5</p>
+        <p>parvez1-6</p>
+    </ul>
+</body>
+
+</html>
