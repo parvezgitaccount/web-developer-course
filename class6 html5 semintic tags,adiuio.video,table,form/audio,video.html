@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>audio and video tag add</title>
+    <!-- use link:favicon on you will set your document logo  -->
+    <link rel="shortcut icon" href="image/logo.jpg" type="image/x-icon">
+    <style>
+        .youtube {
+            padding: 100px 20px;
+            border: 10px dotted greenyellow;
+            width: 100%;
+        }
+        
+        .youtube iframe {
+            width: 30%;
+            margin: auto;
+            margin-left: 35%;
+        }
+        
+        .audio {
+            width: 30%;
+            margin: auto;
+            padding: 100px 0;
+            border: 30px double gray;
+        }
+        
+        .audio audio {
+            align-items: center;
+            margin: auto;
+            margin-left: 100px;
+        }
+        
+        .video {
+            width: 80%;
+            margin-left: 10%;
+        }
+        
+        .video video {
+            padding: 50px 10px;
+            border: 5px solid green;
+            margin: 20px 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- if you set you tube video you will use i frame youtube code  -->
+    <div class="youtube">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/FUiu-cdu6mA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <!-- audio controlars  -->
+    <div class="audio">
+        <audio controls src="music/audio.mp3"></audio>
+    </div>
+    <!-- video controlas  -->
+    <div class="video">
+        <video controls src="music/video.mp4"></video>
+    </div>
+</body>
+
+</html>
