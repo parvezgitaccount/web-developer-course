@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .bat {
+            transition: transform 0.5s ease-in-out;
+        }
+        
+        .bat:hover {
+            transform: rotate(-60deg);
+            transform-origin: 100% 0%;
+        }
+        
+        .boll {
+            width: 50px;
+            height: 50px;
+            border-radius: 30px;
+            background-color: red;
+            position: relative;
+            margin-left: 634px;
+            transition: transform 1s ease-in-out 0.6s;
+        }
+        
+        .bsst:hover .boll {
+            transform: translate(1000px, -200px);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="bsst">
+        <img class="bat" src="images/bat.jpg" alt="">
+        <div class="boll"> </div>
+
+
+    </div>
+
+</body>
+
+</html>

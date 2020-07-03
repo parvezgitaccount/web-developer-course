@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box {
+            width: 100px;
+            height: 100px;
+            border: 1px solid gray;
+        }
+        
+        .outer {
+            background-color: green;
+        }
+        
+        .innar {
+            background-color: indianred;
+            /* transform: scale(0.75); */
+            /* transform: translate(20px); */
+            transform: rotate(45deg) scale(0.5);
+        }
+    </style>
+</head>
+
+<body>
+    <h1>teansform</h1>
+    <div class="box outer">
+        <div class="box innar">box-s</div>
+    </div>
+    <div class="box outer">
+        <div class="box innar">box-2</div>
+    </div>
+    <div class="box outer">
+        <div class="box innar">box-3</div>
+    </div>
+</body>
+
+</html>

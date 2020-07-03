@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>media quariay</title>
+    <style>
+        .container {
+            display: flex;
+            flex-direction: flex;
+            justify-content: center;
+        }
+        
+        .food {
+            border: 3px solid green;
+            padding: 20px 20px;
+            margin: 0px 10px;
+            border-radius: 20px;
+            width: 200px;
+        }
+        
+        .food img {
+            width: 100%;
+        }
+        
+        @media (max-width: 1000px) {
+            .container {
+                flex-direction: column;
+                align-items: center;
+                margin: 20px 10px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="food">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus dolorem rerum omnis iusto laudantium perferendis consequuntur exercitationem reiciendis ad alias.<img src="images/bat.jpg" alt=""></div>
+        <div class="food">Rerum quidem pariatur quod error fugit, possimus quaerat ut quibusdam aperiam iusto ex debitis tempore maiores. Eum fugit quo laboriosam.<img src="images/bat.jpg" alt=""></div>
+        <div class="food">Aut repellat provident eaque, saepe incidunt magnam nemo quaerat ea ipsam dicta earum debitis? Odio dolores et natus sint quod!<img src="images/bat.jpg" alt=""></div>
+        <div class="food">Molestias eius hic, blanditiis quis aliquid eum doloribus dolore quam praesentium reiciendis cupiditate veniam deleniti iusto repudiandae qui fuga nemo!<img src="images/bat.jpg" alt=""></div>
+        <div class="food">Facere laboriosam eligendi ipsum molestiae quis odio doloremque, dicta nulla, exercitationem dolore eos eum explicabo perferendis cum repellat ad quae?<img src="images/bat.jpg" alt=""></div>
+        <div class="food">Officiis ipsum eligendi, eum, excepturi magnam non quas omnis voluptatum optio molestias eos saepe doloribus beatae, sapiente veritatis ratione corrupti.<img src="images/bat.jpg" alt=""></div>
+    </div>
+</body>
+
+</html>
