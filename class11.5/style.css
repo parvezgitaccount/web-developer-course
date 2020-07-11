@@ -1,0 +1,123 @@
+body {
+    background-color: #f3f1FF;
+}
+
+.navbar img {
+    width: 40px;
+}
+
+.navbar a {
+    padding: 0px 20px;
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+}
+
+.navbar-nav li {
+    text-align: center;
+}
+
+
+/* end navbar section  */
+
+
+/* home section  */
+
+.parvez1 img {
+    width: 80px;
+    height: 80px;
+}
+
+.parvez1 {
+    width: 90%;
+    margin: auto;
+    border-bottom: 3px solid red;
+}
+
+.parvez h4 {
+    justify-content: center;
+    align-items: center;
+    padding: 32px 27px;
+}
+
+.blog1 {
+    background-color: white;
+}
+
+
+/* home section  */
+
+
+/* this is blog item  */
+
+.blog-p img {
+    width: 200px;
+    height: 130px;
+}
+
+.blog .blog-p {
+    padding: 10px 40px;
+}
+
+.blog-p .p {
+    padding: 10px 40px;
+}
+
+
+/* this is blog item  */
+
+
+/* courses section  */
+
+.cour {
+    padding: 50px 10px;
+    margin-top: 40px;
+    background-color: white;
+    margin-bottom: 50px;
+}
+
+.cou {
+    padding: 30px 10px;
+}
+
+.course img {
+    width: 100%;
+}
+
+.star {
+    width: 50%;
+    height: 10px;
+    margin-bottom: 8px;
+}
+
+.time {
+    width: 40px;
+    height: 35px;
+    display: inline-block;
+    padding-bottom: 10px;
+}
+
+.img-path path {
+    fill: white;
+}
+
+.star.logo-img {
+    fill: white;
+}
+
+.checked {
+    color: orange;
+    width: 20px !important;
+}
+
+.col {
+    padding: 5px 10px;
+    font-size: 30px;
+    background-color: #cea197;
+    color: #b3552a;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+
+/* courses section  */
