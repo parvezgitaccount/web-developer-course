@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Even Menegment Comphany</title>
+</head>
+
+<body>
+    <!-- <h1 onclick="alert('This IS Heading 1')">Exploring Evants</h1>
+    <!-- <button onclick="handlecClick()">Click Me</button> -->
+    <!-- <button onmouseover="handlecClick()">Click Me</button>
+    <script>
+        function handlecClick() {
+            // console.log(new Date())
+            console.log('some one over me')
+        } -->
+    <!-- </script> -->
+
+
+    <h1 onclick="Clickedcolo()">Exploring Events</h1>
+    <button id="btn-1">Click me-1</button>
+    <button>Click me-2</button>
+    <button>Click me-3</button>
+    <button id="last">Click me-4</button>
+
+    <script>
+        document.getElementById('last').addEventListener('click', function() {
+            document.body.style.backgroundColor = "cyan"
+        })
+
+
+        // function Clickedcolor() {
+        //     document.body.style.backgroundColor = 'cyan'
+        // }
+        // let firstbtn = document.getElementById('btn-1');
+
+        // firstbtn.addEventListener('click', Clickedcolor);
+        // firstbtn.onclick = Clickedcolor;
+
+
+
+        // let firstenBtn = document.getElementById('btn-1');
+        // firstenBtn.onclick = function() {
+        //     console.log("First Button Clicked")
+        // }
+    </script>
+
+
+</body>
+
+</html>

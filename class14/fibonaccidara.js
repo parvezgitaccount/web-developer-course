@@ -11,5 +11,5 @@ function fibonacci(n) {
     }
 }
 
-var result = fibonacci(10);
+var result = fibonacci(1);
 console.log(result)

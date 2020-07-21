@@ -8,5 +8,5 @@ function factroial(n) {
         return n * factroial(n - 1);
     }
 }
-let result = factroial(2)
+let result = factroial(10)
 console.log(result)

@@ -25,3 +25,15 @@ if (kola = true || dam > 10) {
 } else {
     console.log("toe kola pabi nah")
 }
+
+
+
+
+let betonpaiso = true;
+let kotopaiso = 1000;
+
+if (betonpaiso == true || kotopaiso > 2000) {
+    console.log("meta cebtre kemne beton dise")
+} else {
+    console.log("ami jantam airokom kochu ii hoibo")
+}

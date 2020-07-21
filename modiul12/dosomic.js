@@ -28,4 +28,8 @@ console.log(upto);
 // math rendom use korle seta barbar number chenge korbe 
 let cheng = 1.00;
 let barbar = Math.random(cheng)
-console.log(barbar)
+console.log(barbar);
+
+
+
+

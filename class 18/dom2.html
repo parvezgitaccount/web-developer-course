@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        article {
+            border: 2px solid green;
+            border-radius: 10px;
+            margin: 10px;
+            padding: 10px 20px;
+        }
+        
+        .spacial h3 {
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <h3>Exploring DOM</h3>
+        <article class="spacial">
+            <h3>article-1</h3>
+            <h3>article-1</h3>
+            <p class="ahthor descripyion">Lorem ipsum dolor sit amet consectetur adipisicing elit. A, debitis dicta. Itaque at similique quisquam eos animi quia porro ratione magnam adipisci illo odio necessitatibus, soluta accusamus in corporis nam!</p>
+        </article>
+        <article id="first-article">
+            <h3>article-2</h3>
+            <p class="ahthor descripyion">Quam vero laborum quae animi minima numquam maxime quos ut accusamus! Eaque voluptas reiciendis deserunt quisquam omnis numquam maxime quo blanditiis? Quaerat suscipit eligendi voluptates debitis adipisci? Saepe, reiciendis ab!</p>
+        </article>
+        <article>
+            <h3>article-3</h3>
+            <p class="ahthor descripyion">Tempore earum amet qui eos temporibus nemo cumque asperiores nisi iste minus? Reiciendis est provident voluptas doloremque dolores dolorem quis enim cupiditate adipisci, expedita corrupti beatae, quaerat fuga ullam minima?</p>
+        </article>
+    </section>
+    <article>
+        <h2>Grocery list</h2>
+        <ul id="gift-list">
+            <li>gigt item-1</li>
+            <li>gigt item-2</li>
+            <li>gigt item-3</li>
+            <li>gigt item-4</li>
+            <li>gigt item-5</li>
+        </ul>
+    </article>
+
+
+    <script>
+        const article = document.getElementById('first-article');
+        const newparagraph = document.createElement('p');
+        newparagraph.innerHTML = "this is added by javasctipt ";
+        article.appendChild(newparagraph);
+
+
+        // add one more gift  item
+        const ul = document.getElementById('gift-list');
+        const addedli = document.createElement('li');
+        addedli.innerHTML = "this is list 6";
+
+        ul.appendChild(addedli)
+    </script>
+</body>
+
+</html>

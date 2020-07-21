@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        article {
+            border: 2px solid green;
+            border-radius: 10px;
+            margin: 10px;
+            padding: 10px 20px;
+        }
+        
+        .spacial h3 {
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <h3>Exploring DOM</h3>
+        <article class="spacial">
+            <h3>article-1</h3>
+            <h3>article-1</h3>
+            <p class="ahthor descripyion">Lorem ipsum dolor sit amet consectetur adipisicing elit. A, debitis dicta. Itaque at similique quisquam eos animi quia porro ratione magnam adipisci illo odio necessitatibus, soluta accusamus in corporis nam!</p>
+        </article>
+        <article>
+            <h3>article-2</h3>
+            <p class="ahthor descripyion">Quam vero laborum quae animi minima numquam maxime quos ut accusamus! Eaque voluptas reiciendis deserunt quisquam omnis numquam maxime quo blanditiis? Quaerat suscipit eligendi voluptates debitis adipisci? Saepe, reiciendis ab!</p>
+        </article>
+        <article>
+            <h3>article-3</h3>
+            <p class="ahthor descripyion">Tempore earum amet qui eos temporibus nemo cumque asperiores nisi iste minus? Reiciendis est provident voluptas doloremque dolores dolorem quis enim cupiditate adipisci, expedita corrupti beatae, quaerat fuga ullam minima?</p>
+        </article>
+    </section>
+    <script>
+        document.body.style.backgroundColor = "gray"
+        var ahthor = document.querySelectorAll(" h3");
+        for (var i = 0; i < ahthor.length; i++) {
+
+            var element = ahthor[i];
+            console.log(element.innerHTML);
+
+            element.style.backgroundColor = "lightgray";;
+
+        }
+    </script>
+</body>
+
+</html>

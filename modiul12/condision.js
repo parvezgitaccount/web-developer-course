@@ -18,7 +18,7 @@ if (ture == 9) {
 
 
 let kola = 4;
-if (kola != 5) {
+if (kola != 10) {
     console.log("don.t eat kola")
 } else {
     console.log("you will eat koless")
